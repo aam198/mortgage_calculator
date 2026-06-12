@@ -1,3 +1,18 @@
 *,*::before, *::after{
   box-sizing: border-box;
 }
+
+*:not(dialog) {
+  margin: 0;
+}
+
+body{
+  line-height: 1.5;
+}
+
+/* Used for accordions - May remove if not necessary or supported */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
