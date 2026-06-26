@@ -7,6 +7,7 @@
 }
 
 body{
+  min-height: 100vh;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -17,7 +18,8 @@ img, picture, video, canvas, svg {
 }
 
 input, button, textarea, select {
-  font: inherit;
+  font-family: inherit;
+  font-size: inherit;
 }
 /* Avoid text overflows */
 p, h1, h2, h3, h4, h5, h6 {
@@ -31,7 +33,10 @@ p{
 h1,h2,h3,h4,h5,h6{
   text-wrap: balance;
 }
-
+/* Anything that has been anchored to should have extra scroll margin */
+:target{
+  scroll-margin-block: 5em;
+}
 /* Used for accordions - May remove if not necessary or supported */
 @media (prefers-reduced-motion: no-preference) {
   html {
