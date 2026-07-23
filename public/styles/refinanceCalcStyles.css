@@ -3,11 +3,11 @@
   --cyan-800: #0E4D64;
   --teal-900: #137177;
   --teal-800: #188977;
-  --green: #1D9A6C;
-  --light-green: #39A96B;
-  --medium-green: #56B870;
-  --light-medium-green: #74C67A;
-  --light-green: #99D492;
-  --very-light-green: #BFE1B0;
-  --almost-white-green: #DEEDCF
+  --emerald-700: #1D9A6C;
+  --emerald-600: #39A96B;
+  --green-600: #56B870;
+  --green-500: #74C67A;
+  --green-400: #99D492;
+  --green-300: #BFE1B0;
+  --green-50: #DEEDCF;
 }
